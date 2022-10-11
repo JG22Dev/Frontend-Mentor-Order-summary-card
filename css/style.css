@@ -1,0 +1,42 @@
+:root{
+    /*Pincipal*/
+    --PaleBlue: hsl(225, 100%, 94%);
+    --BrightBlue: hsl(245, 75%, 52%);
+
+    /*Neutral*/
+
+    --VeryPaleBlue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --DarkBlue: hsl(223, 47%, 23%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 330px;
+    height: 570px;
+}
+.caracterist{
+    display: flex;
+    padding: 15px;
+}
+.plan{
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
